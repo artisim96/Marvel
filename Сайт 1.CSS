@@ -1,0 +1,73 @@
+/*
+    Default styling override.
+*/
+body
+{
+    background-color: rgb(177, 175, 174);
+    margin: 0; /*Changing default margins.*/
+}
+
+/*
+    Main page styling.
+*/
+p,h2,h3
+{
+    color:rgb(2, 2, 5);
+    font-size: 35px;
+}
+
+h3,#ok0,#ok,p
+{
+    text-align: center;
+}
+
+.ok6
+{
+    width: 1000px;
+    border: 5px solid red;
+    height: 300px;
+}
+
+footer
+{
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 100%;
+    height: 200px;
+}
+
+.ok1
+{
+    border-width: 4px;
+    border-style: dotted;
+    border-color: blue;
+}
+
+#ok1,#ok2,#ok3
+{
+    text-decoration-line: none;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+#ok1,#ok2,#ok3,:link
+{
+    color: rgb(2, 0, 0);
+}
+
+.text 
+{
+    font-size: 20px; 
+    font-style: initial;
+}
+
+#id1,#id2
+{
+    text-align: left;
+    font-style: italic;
+}
+
+#id3,#id4
+{
+    text-align: center;
+    font-style: italic;
+}
